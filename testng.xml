@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/mohitbisht/IdeaProjects/SeleniumProject/src/test/java/tesngconcept">
+        <classes><class name="tesngconcept.TC1">
+            <methods>
+                <include name="test1"/>
+                <include name="test2"/>
+            </methods>
+        </class>
+            <class name="tesngconcept.TC2">
+                <methods>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
